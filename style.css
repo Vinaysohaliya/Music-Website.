@@ -1,0 +1,431 @@
+* {
+    background: #0f0f10;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+       
+    
+}
+
+.apps ul{
+    display: flex;
+    gap: 150px;
+    margin-top: 500px;
+    list-style: none;
+
+}
+
+.specs{
+       text-align: center;
+       margin: 30px;
+}
+
+.case{
+    text-align: center;
+    margin: 30px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second .left{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .second .left . */
+
+.mincon1 {
+    margin: 15px;
+    margin-left: 60px;
+}
+.mincon2{
+    margin: 15px;
+
+}
+
+.mincon3{
+    margin: 15px;
+
+}
+
+.mincon4{
+    margin: 15px;
+    margin-left: 60px;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+button{
+    background: #1e1e21;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 15px;
+
+}
+
+header{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vh;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 30px;
+    width: 100vh;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: start;
+    position: absolute;
+    top: 217px;
+    right: 300px;
+    width: 100vh;
+
+
+}
+p{
+    text-align: start;
+    width: 250px;
+    line-height: 30px;
+    
+}
+
+.beastlogo{
+    margin: 30px ;
+    margin-right: 300px;
+}
+
+.mainimg{
+    position: absolute;
+    top: -150px;
+    left: 360px;
+    
+}
+
+.onearimg{
+    position: absolute;
+    top: 142px;
+    right: 254px;
+    width: 300px;
+}
+.con1 h1{
+   margin-bottom: 20px ;
+   margin-top: 20px;
+
+}
+
+.con1 h2{
+    margin-bottom: 20px;
+}
+
+.con1 p{
+    margin-bottom: 20px;
+}
+
+.con1 button{
+    width: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1 img{
+    margin: 2px ;
+    margin-right: 95px;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third .left{
+    margin: 30px;
+}
+
+.third .right{
+    margin: 30px;
+}
+
+.third button{
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+
+}
+
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+    border-radius: 12px;
+    background-color: #181a12;
+    
+}
+
+.leftfour{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: transparent;
+
+    width: fit-content;
+}
+
+.rightfour{
+    width: fit-content;
+    background-color: transparent;
+    
+    padding: 10px 20px;
+}
+
+.rightfour img{
+    background-color: transparent;
+}
+
+.leftfour h2{
+    padding-bottom: 20px;
+    width: 250px;
+    background-color: transparent;
+
+}
+
+.leftfour p{
+    background-color: transparent;
+
+    padding-bottom: 30px;
+}
+
+.leftfour button{
+    width: fit-content;
+    background: #0f0f10;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #bdc0c2;
+}
+
+.choosestyle{
+    text-align: center;
+    margin: 60px;
+
+}
+
+.five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.black{
+    background-color: transparent;
+    width: 150px;
+    height: 162px;
+    margin: 30px;
+    background: #1e1e21;
+
+    border-radius: 8px;
+    width: fit-content;
+
+
+}
+
+.red{
+    background-color: transparent;
+    background: #1e1e21;
+    height: 162px;
+
+
+    width: 150px;
+    margin: 30px;
+
+}
+
+.nightblack{
+    background-color: transparent;
+    background: #1e1e21;
+    height: 162px;
+
+    width: 150px;
+    margin: 30px;
+
+}
+.blue{
+    background-color: transparent;
+    background: #1e1e21;
+    height: 162px;
+
+    width: 150px;
+    margin: 30px;
+
+}
+
+.yellow{
+    height: 162px;
+margin-top: 30px;
+    background: #1e1e21;
+    
+}
+.headphone{
+    width: 80px;
+    margin-left: 35px;
+    margin: 30px;
+    background-color: transparent;
+    /* margin-bottom: 50px; */
+    position: relative;
+    bottom: 70px;
+}
+
+.firstduo{
+    display: flex;
+    
+}
+
+.secondduo{
+    display: flex;
+
+}
+.thirdduo{
+    width: 150px;
+    display: flex;
+    align-items: baseline;
+    margin-right: 210px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: transparent;
+    position: relative;
+    top: -70px;
+}
+
+.info h3{
+    background-color: transparent;
+}
+
+.info img{
+    background-color: transparent;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.product li{
+    margin-top: 10px;
+}
+.product ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.product h2{
+    margin-bottom: 15px;
+   
+}
+
+.supports{
+    margin-bottom: 15px;
+
+}
+
+
+.supports{
+    display: flex;
+    flex-direction: column;
+}
+.supports li{
+    margin-top: 10px;
+}
+.supports ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.withus{
+    display: flex;
+}
+
+
+.withus{
+    display: flex;
+    flex-direction: column;
+}
+.withus li{
+    margin: 10px;
+}
+.withus ul{
+    list-style: none;
+    display: flex;
+}
+
+.arrow{
+    position: absolute;
+    right: 0;
+}
+
+.bottomlogo{
+    margin-bottom: 110px;
+}
+
+input[type=email]{
+    border: 2px solid snow;
+    /* border: none; */
+    margin: 20px;
+    padding: 10px;
+}
